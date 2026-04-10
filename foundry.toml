@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+    "forge-std/=node_modules/forge-std/",
+    "ds-test/=node_modules/ds-test/src/"
+]
+
+[rpc_endpoints]
+sepolia = "https://ethereum-sepolia-rpc.publicnode.com"
+arbitrum_sepolia = "https://sepolia-rollup.arbitrum.io/rpc"
+polygon_amoy = "https://rpc-amoy.polygon.technology"
